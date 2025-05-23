@@ -1,6 +1,7 @@
 import { Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import { useState } from 'react';
 import './App.css';
+import profile from './assets/educase.png'
 
 function Acc() {
   const navigate = useNavigate();
@@ -246,7 +247,7 @@ function AccSettings() {
           </button>
           <h1 className="settings-title">Account Settings</h1>
           <div className="profile-section">
-            <img src="/placeholder-profile.jpg" alt="Profile" className="profile-img" /> {/* Placeholder image */}
+            <img src={profile} alt="Profile" className="profile-img" /> {/* Placeholder image */}
             <div className="profile-info">
               <h2 className="profile-name">{name}</h2>
               <p className="profile-email">{email}</p>
