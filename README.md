@@ -18,7 +18,7 @@
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+gh repo clone LivingWithPaaji/educase-india-assessment
 ```
 
 2. Navigate to the project directory:
